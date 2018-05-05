@@ -1,7 +1,20 @@
+body {
+  background-color: antiquewhite; 
+}
+
 #title {
-  background-color: darkcyan; 
+  background-color: floralwhite; 
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.75em;
+}
+
+#navigation {
+  text-align: center; 
+}
+
+.image {
+  text-align: center; 
 }
 
 a:visited {
@@ -18,4 +31,5 @@ a:active {
 
 #footer {
   text-align: center; 
+  background-color: floralwhite; 
 }
