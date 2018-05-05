@@ -2,6 +2,14 @@
 <html>
   <head>
     <title>Egg City</title>
+    
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+      label {
+        font-family: monospace; 
+      }
+    </style>
   </head>
 
   <body>
@@ -23,11 +31,11 @@
     <div id="main">
       
     <form action="submit.html" method="post">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name"><br />
+      <label for="name"  style="font-weight: bold">Name:</label>
+      <input type="text" id="name" name="name" required><br />
       
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email"><br />
+      <label for="email"  style="font-weight: bold">Email:</label>
+      <input type="text" id="email" name="email" required><br />
       
       <label for="phone">Phone:</label>
       <input type="text" id="phone" name="phone"><br />

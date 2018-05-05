@@ -1,0 +1,21 @@
+#title {
+  background-color: darkcyan; 
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+a:visited {
+  color: darkgreen; 
+}
+
+a:hover {
+  font-weight: bold; 
+}
+
+a:active {
+  text-decoration: none; 
+}
+
+#footer {
+  text-align: center; 
+}
