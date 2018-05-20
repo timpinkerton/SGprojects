@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        function sayHi(){
+            document.getElementById("userName").innerText = document.getElementById("inputName").value;
+            document.getElementById("Greeting").style.display = "block"; 
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>Enter your name: <input type="text" id="inputName" placeholder="Your name here"/></p>
+        <button onclick="sayHi()">Show Greeting</button>
+    </div>
+
+    <div id="Greeting" style="display: none;">
+        <h1>Hi, <span id="userName"></span></h1>
+    </div>
+</body>
+</html>
